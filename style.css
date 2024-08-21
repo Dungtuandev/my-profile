@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-bottom: 5px solid #007bff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.content-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 2px solid #007bff;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 2em;
+    color: #333;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+    padding: 10px;
+    border-radius: 50%;
+    background: #eee;
+    display: inline-block;
+}
+
+.social-icon.github {
+    color: #333;
+}
+
+.social-icon.github:hover {
+    color: #fff;
+    background-color: #333;
+    transform: scale(1.2);
+}
+
+.social-icon.facebook {
+    color: #4267B2;
+}
+
+.social-icon.facebook:hover {
+    color: #fff;
+    background-color: #4267B2;
+    transform: scale(1.2);
+}
+
+.social-icon.tiktok {
+    color: #000;
+}
+
+.social-icon.tiktok:hover {
+    color: #fff;
+    background-color: #000;
+    transform: scale(1.2);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project-item {
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #007bff; /* Thêm đường viền dưới hình ảnh */
+    border-radius: 10px;
+}
+
+.project-item p {
+    margin: 0;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-top: 5px solid #007bff;
+}
